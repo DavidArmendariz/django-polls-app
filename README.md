@@ -8,3 +8,14 @@
 * To check for any problems without making migrations or touching the database: `python manage.py check`
 * To create a super user: `python manage.py createsuperuser`
 * To run tests within an app: `python manage.py test <app_name>`
+
+## For VS Code only
+
+Include the following in your `settings.json`:
+
+```json
+{
+    "python.pythonPath": "/path/to/your/python/env",
+    "python.formatting.provider": "black",
+}
+```
